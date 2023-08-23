@@ -12,7 +12,12 @@ int main() {
   stringstream stream;
   stream.str(sentence);
   while (stream >> word){
-    cout << word << endl;
+    try {
+      cout << stof(word)*2 << endl;
+    }
+    catch (exception e){
+      cout << word << endl;
+    }
   }
   return 0;
 }
