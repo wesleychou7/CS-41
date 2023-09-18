@@ -22,7 +22,7 @@ class SortedLinkedList{
             if (count == 0){
                 front = temp;
             }else{
-                // first check if front node less than temp node
+                // first check if front node greater than temp node
                 if ((front->data) > (temp->data)){
                     temp->next = front;
                     front = temp;
