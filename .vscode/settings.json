@@ -2,7 +2,9 @@
     "files.associations": {
         "iostream": "cpp",
         "iosfwd": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "__config": "cpp",
+        "__nullptr": "cpp"
     },
     "cmake.configureOnOpen": false
 }
