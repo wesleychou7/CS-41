@@ -30,6 +30,23 @@ class List{
         }
     }
 
+    void deleteFromTail(){
+        if (head == 0){
+            cout << "Can't delete" << endl;
+        }
+        else if (head == tail){
+            Link* temp = head;
+            head = tail = nullptr;
+            delete temp;
+        }
+        else {
+            Link* temp = tail;
+            tail = tail->prev;
+            tail->next = nullptr;
+            delete temp;
+        }
+    }
+
     void print(){
         Link* i = head;
         while(i != nullptr){
@@ -49,4 +66,12 @@ int main(){
     a.print();
     a.AddToTail(15);
     a.print();
+
+    a.deleteFromTail();
+    a.print();
+    a.deleteFromTail();
+    a.print();
+    a.deleteFromTail();
+    a.print();
+    a.deleteFromTail();
 }
