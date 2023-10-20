@@ -1,10 +1,14 @@
 {
-    "files.associations": {
-        "iostream": "cpp",
-        "iosfwd": "cpp",
-        "ostream": "cpp",
-        "__config": "cpp",
-        "__nullptr": "cpp"
-    },
-    "cmake.configureOnOpen": false
+  "files.associations": {
+    "iostream": "cpp",
+    "iosfwd": "cpp",
+    "ostream": "cpp",
+    "__config": "cpp",
+    "__nullptr": "cpp",
+    "array": "cpp",
+    "string": "cpp",
+    "string_view": "cpp",
+    "vector": "cpp"
+  },
+  "cmake.configureOnOpen": false
 }
