@@ -118,7 +118,7 @@ int main() {
     string temp;
     int num;
 
-    ifstream file("sample.txt");
+    ifstream file("HelloWorld.txt");
 
     while (!file.eof()) {
 
@@ -179,5 +179,14 @@ int main() {
 }
 
 /*
-make my own sample.txt file and comment output here
+OUTPUT:
+
+CYBERBEAST is 99990
+F150 is UNDEFINED
+HORSEPOWER is 845
+TORQUE is 10296
+RANGE is 320
+RANGE + 150 is 470
+POTENTIALSAVINGS is 7500
+HORSEPOWER is UNDEFINED
 */
