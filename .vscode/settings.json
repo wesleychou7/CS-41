@@ -8,7 +8,9 @@
     "array": "cpp",
     "string": "cpp",
     "string_view": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "__node_handle": "cpp",
+    "filesystem": "cpp"
   },
   "cmake.configureOnOpen": false
 }
